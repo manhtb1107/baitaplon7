@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUY MANH SHOP</title>
+    <link rel="stylesheet" href="trangcon.css"> </head>
+    
+<body>
+    <header>
+        <div class="container">
+            <div class="content__header">
+                <div class="logo__header">
+                    <img src="logo.jpg" alt="">
+                </div>
+                <div class="menu__header">
+                    <nav>
+                        <ul class="nav__link">
+                            <li><a href="trangchu.html">Trang chủ</a></li>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Sản phẩm</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="A">
+                    <a href="index.html">Đăng nhập</a> | 
+                    <a href="index.html">Đăng ký</a>
+                  </div>
+                <div class="card__head">
+                    <div class="card" id="popup_card">
+                        <img src="Group 16.png" alt="">
+                        <span>3</span>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product-details">
+            <div class="product-images">
+                <img id="mainImage" src="8.jpg" alt="Ảnh sản phẩm chính">
+                <div class="thumbnail-images">
+                    <img src="9.jpg" alt="Ảnh nhỏ 1" onmouseover="changeImage('9.jpg')">
+                    <img src="10.jpg" alt="Ảnh nhỏ 2" onmouseover="changeImage('10.jpg')">
+                    <img src="11.jpg" alt="Ảnh nhỏ 2" onmouseover="changeImage('11.jpg')">
+                    <img src="12.jpg" alt="Ảnh nhỏ 2" onmouseover="changeImage('12.jpg')">
+                    </div>
+            </div>
+            <div class="product-info">
+                <h2>Áo đẹp </h2>
+                <p class="price">Giá: <span class="original-price">200.000đ</span></p> 
+                <button class="add-to-cart">Thêm vào giỏ hàng</button>
+
+                <h3>Thông tin sản phẩm:</h3>
+                <p>Chất liệu da cao cấp, thiết kế hiện đại</p>
+
+                <h3>Mô tả chi tiết:</h3>
+                <p> <i>Ưu điểm : </i></p>
+                <li>Mỏng, ít nhăn, nhanh khô</li>
+                <li>Chất liệu không phai màu khi giặt </li>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function changeImage(src) {
+            document.getElementById("mainImage").src = src;
+        }
+    </script>
+</body>
+</html>
